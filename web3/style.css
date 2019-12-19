@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+
+button {
+    font-size: 2rem;
+}
+
+nav {
+    background: rgb(36, 36, 116);
+    color: white;
+    padding: 2rem;
+}
+
+nav h1 {
+    float: left;
+
+}
+
+nav ul {
+    float: right;
+
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin: 0rem 2rem;
+}
+
+.hero-section {
+    background-image: url(/img/variety-of-vegetables-1400172.jpg);
+    height: 80rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 3px black;
+}
+
+.hero-section button {
+    margin-top: 5rem;
+    padding: 2rem 8rem;
+    border: none;
+    background: rgb(36, 36, 116);
+    color: white;
+    cursor: pointer;
+}
+
+.form-section {
+    text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+    display: block;
+    font-size: 2.4rem;
+    width: 50%
+}
+
+form input,
+form textarea {
+    margin: 2rem auto;
+}
+
+form button {
+    margin-bottom: 10rem;
+    padding: 2rem 8rem;
+    border: none;
+    background: rgb(36, 36, 116);
+    color: white;
+    cursor: pointer;
+    width: 50%;
+
+}
